@@ -1,0 +1,182 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  FrameWidgetClass "{633063672DE1245D}" {
+   Name "RespawnHudFrame"
+   Slot FrameWidgetSlot "{633063672DE124BC}" {
+    Anchor 0.5 0.5 0.5 0.5
+    PositionX -299.277
+    OffsetLeft -299.277
+    PositionY -388.634
+    OffsetTop -388.634
+    SizeX 559.02
+    OffsetRight -259.743
+    SizeY 781.421
+    OffsetBottom -392.787
+   }
+   {
+    TextWidgetClass "{63308107976E085C}" {
+     Name "AliveText"
+     Slot FrameWidgetSlot "{63308107976E08AB}" {
+      PositionX 308.909
+      OffsetLeft 308.909
+      PositionY 18.778
+      OffsetTop 18.778
+      SizeX 100
+      OffsetRight -408.909
+      SizeY 30
+      OffsetBottom -48.778
+     }
+     Text ""
+     "Horizontal Alignment" Right
+     "Vertical Alignment" Center
+    }
+    ImageWidgetClass "{6330636528D1EDAF}" {
+     Name "Image0"
+     Slot FrameWidgetSlot "{6330636528D1EDF0}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX -922.611
+      OffsetRight 0
+      SizeY -751.421
+      OffsetBottom 0
+     }
+     Color 0.095 0.089 0.306 0.381
+    }
+    ButtonWidgetClass "{63306365A28FD62D}" {
+     Name "ToggleButton"
+     Slot FrameWidgetSlot "{63306365A28FD60E}" {
+      PositionX 2.563
+      OffsetLeft 2.563
+      PositionY 3.581
+      OffsetTop 3.581
+      SizeX 138.896
+      OffsetRight -141.459
+      SizeY 47.505
+      OffsetBottom -51.086
+     }
+     Color 0.098 0.061 0.279 1
+     components {
+      ButtonComponent "{63306365B66F2C3D}" {
+       m_ColorButtonDefault 0.098 0.061 0.279 1
+      }
+      SCR_ButtonTextComponent "{63306365B3044D86}" {
+      }
+     }
+     {
+      TextWidgetClass "{633063640A166BB2}" {
+       Name "Text0"
+       Slot ButtonWidgetSlot "{633063640A166BF2}" {
+       }
+       Text "Toggle All"
+       "Horizontal Alignment" Center
+       "Vertical Alignment" Center
+       Wrap 1
+       Offset 0 -1
+      }
+     }
+    }
+    OverlayWidgetClass "{63306365416C1E31}" : "{94CAAE4A601195D3}UI/layouts/ListBox/ListBox.layout" {
+     Name "PlayersList"
+     Slot FrameWidgetSlot "{63306365416C1E3F}" {
+      PositionX 0
+      OffsetLeft 0
+      PositionY 49.677
+      OffsetTop 49.677
+      SizeX 414.645
+      OffsetRight -414.645
+      SizeY 739.582
+      OffsetBottom -789.259
+     }
+     components {
+      SCR_ListBoxComponent "{566C9415BAA54E1B}" {
+       Enabled 0
+      }
+      CHO_ListboxComponent "{633071E61BBCA1FD}" {
+      }
+     }
+     {
+      FrameWidgetClass "{633063658E41D498}" {
+       Name "Frame0"
+       Slot OverlayWidgetSlot "{633063658E41D4F8}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       {
+        PanelWidgetClass "{63306365638F2DF6}" {
+         Name "Border"
+         Slot FrameWidgetSlot "{63306365893DCEA8}" {
+          Anchor 0 0 1 1
+          PositionX 0
+          OffsetLeft 0
+          PositionY 0
+          OffsetTop 0
+          SizeX -297.608
+          OffsetRight 0
+          SizeY -789.259
+          OffsetBottom 0
+         }
+         Color 0 0.004 0.106 1
+         style outline_4px
+        }
+       }
+      }
+      ImageWidgetClass "{5DB6D18100D38307}" {
+       Prefab "{5DB6D18100D38307}"
+       "Is Visible" 0
+      }
+     }
+    }
+    PanelWidgetClass "{63306366C943144A}" {
+     Name "Border"
+     Slot FrameWidgetSlot "{63306366C9431491}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+     }
+     Color 0 0.004 0.106 1
+     style outline_4px
+    }
+    ButtonWidgetClass "{63306364319ADCE1}" {
+     Name "RespawnAll"
+     Slot FrameWidgetSlot "{63306365A28FD60E}" {
+      PositionX 415.563
+      OffsetLeft 415.563
+      PositionY 4.351
+      OffsetTop 4.351
+      SizeX 138.896
+      OffsetRight -554.459
+      SizeY 47.505
+      OffsetBottom -51.856
+     }
+     Color 0.098 0.061 0.279 1
+     components {
+      ButtonComponent "{63306365B66F2C3D}" {
+       m_ColorButtonDefault 0.098 0.061 0.279 1
+      }
+      SCR_ButtonTextComponent "{63306365B3044D86}" {
+      }
+     }
+     {
+      TextWidgetClass "{63306364319ADCE3}" {
+       Name "Text0"
+       Slot ButtonWidgetSlot "{633063640A166BF2}" {
+       }
+       Text "Respawn All"
+       Wrap 1
+      }
+     }
+    }
+   }
+  }
+ }
+}

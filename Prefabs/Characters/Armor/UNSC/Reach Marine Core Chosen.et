@@ -1,6 +1,9 @@
 GenericEntity : "{97C0F850788D2E25}Prefabs/Characters/Armor/UNSC/Heavy Marine Core.et" {
  ID "50D8C49B3558F152"
  components {
+  BaseRadioComponent "{61A4D4CDABE42071}" {
+   "Encryption key" "BLUFOR"
+  }
   MeshObject "{5312D798A817A294}" {
    Object "{FCCC88E903865CC3}Assets/Characters/Armor/Marine/OWS Reach/Marine armor core OWS.xob"
   }

@@ -1,0 +1,136 @@
+GenericEntity : "{5879D8E9C56E358D}Prefabs/Items/Core/Radio_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  BaseRadioComponent "{5A30BAE7673C63CA}" {
+   "Encryption key" "UNSC"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{633071E55806DA2D}" {
+     ChannelFrequency 38000
+     "Transmitting Range" 5000
+    }
+    RadioTransceiver "{633071E55806DA00}" {
+     "Transmitting Range" 5000
+    }
+   }
+  }
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "UNSC Handheld Radio"
+     Icon "{F391259C84C70578}UI/Textures/Factions/UNSC Emblem Faction.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 20
+     DimensionScaler 1
+     RestingUP Forward
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0.18
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{633071E55806DA70}" {
+     AnimationInstance "{5B6413B9125EE731}Assets/Items/Equipment/workspaces/Radio_R148_player.asi"
+     AnimationAttachments {
+      AnimationAttachmentInfo "{633071E55806DA73}" {
+       AnimGraph "{4512B6E152A948B4}Assets/Items/Equipment/workspaces/Radio_R148.agr"
+       AnimInstance "{5B6413B9125EE731}Assets/Items/Equipment/workspaces/Radio_R148_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{633071E55806DA7A}" {
+      CameraOrbitAngles -20 190 0
+      CameraDistanceToItem 0.3
+      FOV 40
+     }
+    }
+    CommonItemType "RADIO"
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{5A30BAE7673C63D1}" {
+   Object "{5700C7811FB75CAF}Assets/Items/Radios/UNSC Handheld radio.xob"
+  }
+  RigidBody "{5A30BAE7673C63D3}" {
+   Enabled 0
+   Mass 3
+   CenterOfMass 0 0.1 0
+   LinearDamping 0.5
+   AngularDamping 0.5
+   ModelGeometry 1
+   CCDRadius 0.028
+  }
+  ProcAnimComponent "{633071E55806DA65}" {
+   Enabled 0
+   Parameters {
+    ProcAnimParams "{633071E55806DA68}" {
+     ResourceName "{DE57211A364C1700}Assets/Items/Equipment/Radios/Radio_R148/Radio_R148_01.pap"
+     BoneNames {
+      "i_channel01" "i_channel02"
+     }
+     SimulationDistance 20
+     SimulateOnDedicatedServer 0
+    }
+   }
+  }
+  SCR_RadioComponent "{5A30BAE7673C63D4}" {
+   m_eAnimVariable R148
+   m_iRadioType R148
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+     ContextName "default"
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0.1032 0
+     }
+     Radius 0.135
+    }
+    UserActionContext "{633071E55806DA53}" {
+     ContextName "knob_channel"
+     Position PointInfo "{633071E55806DA55}" {
+      PivotID "i_channel01"
+     }
+     Radius 0.15
+    }
+    UserActionContext "{633071E55806DA56}" {
+     ContextName "knob_toggle"
+     Position PointInfo "{633071E55806DA57}" {
+      PivotID "Scene_Root"
+      Offset -0.05 0.24 -0.01
+     }
+     Radius 0.1
+    }
+   }
+   additionalActions {
+    SCR_EquipGadgetAction "{553AEBE8806A957C}" : "{068D8D646964D12A}Prefabs/Characters/Core/Actions/EquipGadgetAction.conf" {
+    }
+    SCR_RadioTuningUserAction "{633071E55806DA5C}" {
+     ParentContextList {
+      "knob_channel"
+     }
+     UIInfo UIInfo "{633071E55806DA5E}" {
+     }
+    }
+    SCR_RadioTuningUserAction "{633071E55806DA4B}" {
+     ParentContextList {
+      "knob_channel"
+     }
+     UIInfo UIInfo "{633071E55806DA4C}" {
+     }
+     m_bTuneUp 1
+    }
+    SCR_RadioToggleUserAction "{633071E55806DA4E}" {
+     ParentContextList {
+      "knob_toggle"
+     }
+    }
+   }
+  }
+ }
+ coords 0.035 -0.066 0.27
+}

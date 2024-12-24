@@ -1,0 +1,74 @@
+GenericEntity : "{65CFF7E95B53C338}Prefabs/Items/Core/Watch_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName UIInfo "{5222EB4D07D865FA}" {
+     Name "Medical Datapad"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemDimensions 5 5 5
+     ItemVolume 10
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0.04 0
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{568A982833EF25F4}" {
+     AnimationAttachments {
+      AnimationAttachmentInfo "{568A98287DE070F6}" {
+       AnimGraph "{83675D0B0AB1B2C3}Assets/Items/Equipment/workspaces/paper_map.agr"
+       AnimInstance "{56794534F6B8C3D7}Assets/Items/Equipment/workspaces/player_map.asi"
+      }
+     }
+     AllowInspection 1
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{633071E66EF85944}" {
+      CameraPreset Top
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 1.4
+      FOV 10
+      AspectRatio 1
+     }
+    }
+    CommonItemType "WATCH"
+   }
+  }
+  MeshObject "{509AD57A3450CC4D}" {
+   Object "{CAFFE955D4C036A5}Assets/Items/Equipment/Datapad/Medical Datapad.xob"
+   Materials {
+    MaterialAssignClass "{633071E66EF859B9}" {
+     SourceMaterial "Screen"
+     AssignedMaterial "{80B0BA9A9B254391}Assets/Items/Equipment/Maps/Datapad/Data/Medical Screen.emat"
+    }
+   }
+  }
+  SCR_WristwatchComponent "{55869E76C5599628}" {
+   Enabled 1
+   m_eAnimVariable MAP
+  }
+  BaseLoadoutClothComponent "{5A8879211DCE8D5D}" {
+   AreaType LoadoutWatchArea "{5A888AB24DD24B3B}" {
+   }
+   WornModel ""
+   WornMaterialsOverride {
+    "" "" "{80B0BA9A9B254391}Assets/Items/Equipment/Maps/Datapad/Data/Medical Screen.emat"
+   }
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    CHO_RespawnMenuOpen "{633071E40098AD8B}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{633071E41C3B544C}" {
+      Name "Open Squad Health Menu"
+     }
+     "Inventory action" 1
+    }
+   }
+  }
+ }
+ coords 3.438 3.022 3.12
+}
