@@ -1,0 +1,50 @@
+GenericEntity : "{97C0F850788D2E25}Prefabs/Characters/Armor/UNSC/Heavy Marine Core.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{FCCC88E903865CC3}Assets/Characters/Armor/Marine/OWS Reach/Marine armor core OWS.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{607C43856C8FA215}" {
+   components {
+    SCR_EquipmentStorageComponent "{61A4D4CDABE4204E}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot Chest {
+       Offset 0 0.0087 0.0048
+       AnimatedMeshRefference "{98F0906182796459}Assets/Characters/Armor/Marine/Light/Light armor core.xob"
+      }
+      SCR_EquipmentStorageSlot LPad {
+       AnimatedMeshRefference "{98F0906182796459}Assets/Characters/Armor/Marine/Light/Light armor core.xob"
+      }
+      SCR_EquipmentStorageSlot RPad {
+       AnimatedMeshRefference "{98F0906182796459}Assets/Characters/Armor/Marine/Light/Light armor core.xob"
+      }
+      SCR_EquipmentStorageSlot LGauntlet {
+       AnimatedMeshRefference "{98F0906182796459}Assets/Characters/Armor/Marine/Light/Light armor core.xob"
+      }
+      SCR_EquipmentStorageSlot RGauntlet {
+       AnimatedMeshRefference "{98F0906182796459}Assets/Characters/Armor/Marine/Light/Light armor core.xob"
+      }
+      SCR_EquipmentStorageSlot ThighPouch {
+       AnimatedMeshRefference "{98F0906182796459}Assets/Characters/Armor/Marine/Light/Light armor core.xob"
+      }
+     }
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{61A4D4CDABE42054}" {
+    ItemDisplayName UIInfo "{61A4D4CDABE42057}" {
+     Name "Light Marine Armor Core (Reach)"
+     Description "Model by Outworld Studios"
+    }
+   }
+   MaxCumulativeVolume 1000
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{FCCC88E903865CC3}Assets/Characters/Armor/Marine/OWS Reach/Marine armor core OWS.xob"
+   WornMaterialsOverride {
+    "{399DDF64172148E9}Assets/Characters/Armor/Marine/OWS Reach/Data/R_Pad Chosen.emat" "{9A2306708F0524CE}Assets/Characters/Armor/Marine/OWS Reach/Data/Thigh_Armor Reach Chosen.emat"
+   }
+   ItemModel "{AD4F5D3FFBF4D3AF}Assets/Characters/Armor/Marine/Light/Light armor core item.xob"
+   DeflatedModel "{FCCC88E903865CC3}Assets/Characters/Armor/Marine/OWS Reach/Marine armor core OWS.xob"
+  }
+ }
+}

@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.565 0.565 0.565 1
+ BCRMap "{9C47C8914267919F}Assets/Armor/Reach/data/CTrp_Reach_BCR.edds"
+ NMOMap "{48B579EAC3B44AA3}Assets/Characters/Armor/Marine/OWS Reach/Data/DefaultMaterial_NMO.edds"
+}

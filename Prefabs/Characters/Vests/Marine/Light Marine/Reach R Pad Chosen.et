@@ -1,0 +1,31 @@
+GenericEntity : "{971CE707B767DFD8}Prefabs/Characters/Vests/Marine/Light Marine/Add Light R Pad.et" {
+ ID "50D8C49B3558F152"
+ components {
+  InventoryItemComponent "{61A51A24F3F0CB8E}" {
+   Attributes SCR_ItemAttributeCollection "{61A51A24F3F0CBF2}" {
+    ItemDisplayName UIInfo "{61A51A24F3F34984}" {
+     Name "Light Right Shoulder Pad (Reach)"
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{C0F99AD95654F974}Assets/Characters/Armor/Marine/OWS Reach/Marine R Pad OWS.xob"
+   Materials {
+    MaterialAssignClass "{632F5DCDE6DEB3A0}" {
+     SourceMaterial "R_Pad"
+     AssignedMaterial "{399DDF64172148E9}Assets/Characters/Armor/Marine/OWS Reach/Data/R_Pad Chosen.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{C0F99AD95654F974}Assets/Characters/Armor/Marine/OWS Reach/Marine R Pad OWS.xob"
+   WornMaterialsOverride {
+    "{399DDF64172148E9}Assets/Characters/Armor/Marine/OWS Reach/Data/R_Pad Chosen.emat"
+   }
+   ItemModel "{C0F99AD95654F974}Assets/Characters/Armor/Marine/OWS Reach/Marine R Pad OWS.xob"
+   ItemMaterialsOverride {
+    "{399DDF64172148E9}Assets/Characters/Armor/Marine/OWS Reach/Data/R_Pad Chosen.emat"
+   }
+  }
+ }
+}

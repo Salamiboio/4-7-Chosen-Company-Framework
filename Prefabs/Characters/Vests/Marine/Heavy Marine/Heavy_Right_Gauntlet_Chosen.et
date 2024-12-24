@@ -1,0 +1,98 @@
+GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  InventoryItemComponent "{632F6E02C4C029CC}" {
+   Attributes SCR_ItemAttributeCollection "{632F6E02C4C0283B}" {
+    ItemDisplayName UIInfo "{632F6E02C4C0283E}" {
+     Name "Heavy Right Gauntlet"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{632F6E02C4C02823}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 800
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{632F6E02C4C02827}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 3.5
+      FOV 10
+      PreviewModel ""
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_2x2
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{E626A67740E34EED}Assets/Characters/Armor/Marine/Heavy/Heavy armor R Gauntlet.xob"
+   Materials {
+    MaterialAssignClass "{632F6E02C4C02812}" {
+     SourceMaterial "Arms"
+     AssignedMaterial "{31CFB8903952E252}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Arms.emat"
+    }
+   }
+  }
+  RigidBody "{5312D798AF7A9E28}" {
+   Enabled 1
+   ModelGeometry 1
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType ZEL_ExtraArea4 "{632F6E02C4C0281E}" {
+   }
+   Slots {
+    LoadoutSlotInfo Canteen {
+     PivotID "spine3"
+     Offset -0.1653 -0.0798 -0.1052
+     Angles 0 237.00003 0
+    }
+    LoadoutSlotInfo Etool {
+     PivotID "spine3"
+     Offset 0.0762 -0.0242 -0.1147
+     Angles 0 168.44139 0
+    }
+   }
+   WornModel "{E626A67740E34EED}Assets/Characters/Armor/Marine/Heavy/Heavy armor R Gauntlet.xob"
+   WornMaterialsOverride {
+    "{50B55091CC605AC9}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Heavy_Chosen_Arms.emat"
+   }
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   SoundInt 430
+   DepthFront 0
+   DepthBack 0
+   DepthLeft 0.016
+   DepthRight 0.016
+   OffsetShoulderLeft 0
+   OffsetShoulderRight 0
+   AreaOcludders {
+    "BeltFrontLeft" "BeltFrontRight" "ChestLeftBottomFront" "ChestRightBottomFront" "ChestLeftTopFront" "ChestRightTopFront"
+   }
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{632F6E02C4C0280A}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{53153A1F9AB97FF6}" {
+   additionalActions {
+    SCR_EquipClothAction "{52F2BEF206B82FCB}" {
+     ParentContextList {
+     }
+    }
+    SCR_EquipGadgetAction "{632F6E02C4C02870}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{632F6E02C4C02871}" {
+      Name "#AR-Inventory_Equip"
+     }
+    }
+   }
+  }
+  RplComponent "{52A889F9AFAA98F2}" {
+   "Parent Node From Parent Entity" 0
+  }
+ }
+}

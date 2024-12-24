@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Color 0.565 0.565 0.565 1
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{12228C8B91C7270D}Assets/Armor/Reach/data/CTrp_Reach_Helmet_BCR.edds"
+ NMOMap "{6759580148B2C6E1}Assets/Characters/Armor/Marine/OWS Reach/Data/Helmet/DefaultMaterial_NMO.edds"
+}

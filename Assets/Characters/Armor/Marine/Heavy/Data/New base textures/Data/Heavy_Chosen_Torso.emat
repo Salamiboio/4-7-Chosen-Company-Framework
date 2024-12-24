@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Cull none
+ BCRMap "{3D10D0C40630D7B8}Assets/Armor/Heavy/Heavy_Chosen_Torso_BCR.edds"
+ NMOMap "{4559F7FA0F60A7F6}Assets/Characters/Armor/Marine/Heavy/Data/New/Torso_NMO.edds"
+}

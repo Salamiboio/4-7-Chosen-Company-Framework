@@ -1,0 +1,127 @@
+GenericEntity : "{BD62F0F4B7AE603A}Prefabs/Characters/Armor/UNSC/Pilot Armor.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseRadioComponent "{632F6E02DBA40826}" {
+   "Encryption key" "UNSC"
+   "Turned on" 1
+   Transceivers {
+    RadioTransceiver "{632F6E02DBA40817}" {
+     "Transmitting Range" 10000
+    }
+   }
+  }
+  InventoryItemComponent "{5DF2CE902E1EB161}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{5DF2CE902E1EB16A}" {
+    ItemDisplayName UIInfo "{5DF2CE902E1EB170}" {
+     Name "ODST Armor Core"
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+  }
+  SCR_RadioComponent "{632F6E02DBA40806}" {
+   m_iRadioCategory MANPACK
+   m_iRadioType R107M
+  }
+  SCR_UniversalInventoryStorageComponent "{607C43856C8FA215}" {
+   components {
+    SCR_EquipmentStorageComponent "{632F6E02DBA4080B}" {
+     StoragePurpose 96
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot Chest {
+       PivotID "Spine5"
+       Offset 0 0 0.0648
+       ChildPivotID "Spine5"
+       AllowedItemTypes {
+        "ODST_Chest"
+       }
+       AnimatedMeshRefference "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+      }
+      SCR_EquipmentStorageSlot LPad {
+       PivotID "LeftArm"
+       Offset 0.0198 0 0
+       ChildPivotID "LeftArm"
+       AllowedItemTypes {
+        "ODST_Shoulder_L"
+       }
+       AnimatedMeshRefference "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+      }
+      SCR_EquipmentStorageSlot RPad {
+       PivotID "RightArm"
+       Offset -0.0198 0 0
+       ChildPivotID "RightArm"
+       AllowedItemTypes {
+        "ODST_Shoulder_R"
+       }
+       AnimatedMeshRefference "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+      }
+      SCR_EquipmentStorageSlot LGauntlet {
+       PivotID "LeftForeArmTwist"
+       ChildPivotID "LeftForeArmTwist"
+       AllowedItemTypes {
+        "ODST_Gauntlet_L"
+       }
+       AnimatedMeshRefference "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+      }
+      SCR_EquipmentStorageSlot RGauntlet {
+       PivotID "RightForeArmTwist"
+       ChildPivotID "RightForeArmTwist"
+       AllowedItemTypes {
+        "ODST_Gauntlet_R"
+       }
+       AnimatedMeshRefference "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+      }
+      SCR_EquipmentStorageSlot ThighPouch {
+       PivotID "LeftLegTwist"
+       ChildPivotID "LeftLegTwist"
+       AllowedItemTypes {
+        "POUCH_ATTACH_L"
+       }
+       AnimatedMeshRefference "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+      }
+     }
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{632F6E02DBA4087C}" {
+    ItemDisplayName UIInfo "{632F6E02DBA4087D}" {
+     Name "Heavy Marine Armor Core"
+     Description "Model by Callado (Diego)"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{632F6E02DBA40860}" {
+     Weight 4.1
+     SizeSetupStrategy Manual
+     ItemDimensions 20 20 20
+     ItemVolume 5000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{632F6E02DBA40863}" {
+      CameraOrbitAngles 0 180 0
+      CameraDistanceToItem 5
+      CameraOffset 0 0.4 0
+      FOV 10
+      AspectRatio 1
+      PreviewWornModel 1
+      PreviewModel "{44C2CCFDDA4C6B52}Assets/Characters/Vests/Vest_PASGT/Vest_PASGT.xob"
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   MaxCumulativeVolume 500
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+   WornMaterialsOverride {
+    "" "" "{F471A419A713E805}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Heavy_Chosen_Torso.emat" "{33F479BE4CCB6057}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Heavy_Chosen_Legs.emat"
+   }
+   ItemModel "{8903AEFF772946DE}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core Item.xob"
+   DebugWornModel 1
+   DeflatedModel "{6285E4E140741749}Assets/Characters/Armor/Marine/Heavy/Heavy Armor Core.xob"
+  }
+ }
+ coords 1794.562 39 2852.535
+}

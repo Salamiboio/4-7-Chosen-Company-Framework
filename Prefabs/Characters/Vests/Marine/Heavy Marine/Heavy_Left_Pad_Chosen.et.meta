@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C2B5B75D5FF8AE76}Prefabs/Characters/Vests/Marine/Heavy Marine/Heavy_Left_Pad_Chosen.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

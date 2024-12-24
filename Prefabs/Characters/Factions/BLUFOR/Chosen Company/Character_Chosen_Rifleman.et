@@ -1,0 +1,109 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CommunicationSoundComponent "{54FD05D0C92D071F}" {
+   Filenames + {
+    "{04548C6D4A936054}Sounds/RadioProtocol/RadioProtocol_Report_2_US.acp"
+   }
+  }
+  CRF_PlayableCharacter "{62F200EA748008B9}" {
+   m_sName "Rifleman(Flex)"
+   m_bIsPlayable 1
+  }
+  FactionAffiliationComponent "{632E44222356F704}" {
+   "faction affiliation" "US"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels + {
+     2 11
+    }
+    m_aAutoLabels {
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{DACEEB4CE8E7983F}Prefabs/Weapons/Rifles/MA37/MA37B.et"
+   WeaponSlotIndex 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponSlotIndex 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{04F4D8CBA36A534B}Prefabs/Characters/Heads/Head_Black_02.et"
+     Body "{6253161EEAB88EAB}Prefabs/Characters/Basebody/CharacterBasebody_Black_02.et"
+    }
+    SoundIdentity SoundIdentity "{56E6D945D8F79290}" {
+     VoiceID 0
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{EA359E3A759489ED}Prefabs/Characters/HeadGear/Marine/Reach Marine helmet Chosen.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6D3DD9544E66E05C}Prefabs/Characters/Uniforms/Marine Jacket Green.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{ACC2CAC7590CF32A}Prefabs/Characters/Armor/UNSC/Reach Marine Core Chosen.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DF8CEDB1F490ACE2}Prefabs/Characters/Uniforms/Marine Pants Green.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{60A5671A9CD191BD}Prefabs/Items/Equipment/Bags/Heavy Assault Pack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{6C375FE965D89495}Prefabs/Characters/Vests/Marine/Reach Marine Pouches.et"
+    }
+    LoadoutSlotInfo Extra {
+     Prefab "{1A50E4A33B923F75}Prefabs/Characters/Vests/Marine/Light Marine/Reach L Pad Chosen.et"
+    }
+    LoadoutSlotInfo Extra2 {
+     Prefab "{A03BA554CF04F1BB}Prefabs/Characters/Vests/Marine/Light Marine/Reach R Pad Chosen.et"
+    }
+    LoadoutSlotInfo Extra3 {
+     Prefab "{640CFBCFB4A45D4F}Prefabs/Characters/Vests/Marine/Light Marine/Front Pouches.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{632E442093D1A97B}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Marine Pants Green.et"
+     PrefabsToSpawn {
+      "{A7A86691713E77EE}Prefabs/Items/Medicine/Biofoam/Biofoam_base.et" "{A7A86691713E77EE}Prefabs/Items/Medicine/Biofoam/Biofoam_base.et" "{A7A86691713E77EE}Prefabs/Items/Medicine/Biofoam/Biofoam_base.et" "{A7A86691713E77EE}Prefabs/Items/Medicine/Biofoam/Biofoam_base.et" "{05D6D0A6DE444728}Prefabs/Items/Medicine/Biofoam/Medigel_base.et" "{05D6D0A6DE444728}Prefabs/Items/Medicine/Biofoam/Medigel_base.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+    ItemsInitConfigurationItem "{632E442950913FF7}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Marine Jacket Green.et"
+     PrefabsToSpawn {
+      "{4516ED62FABDDA4F}Prefabs/Items/Equipment/Maps/Datapad_01.et" "{61D4F80E49BF9B12}Prefabs/Items/Equipment/Compass/Compass_SY183.et"
+     }
+    }
+    ItemsInitConfigurationItem "{632E44298127E0E1}" {
+     TargetStorage "Prefabs/Characters/Vests/Marine/Light Marine/Front Pouches.et"
+     PrefabsToSpawn {
+      "{970BD9E3262C5EF7}Prefabs/Weapons/Grenades/Z-4190 TPE-SS/Bubble_Base.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{B53E34CC78CF7FAB}Prefabs/Weapons/Grenades/Grenade_M9.et" "{B53E34CC78CF7FAB}Prefabs/Weapons/Grenades/Grenade_M9.et" "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et" "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et" "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et"
+     }
+    }
+    ItemsInitConfigurationItem "{632E443B1C78A0C1}" {
+     TargetStorage "Prefabs/Characters/Armor/UNSC/Reach Marine Core Chosen.et"
+     PrefabsToSpawn {
+      "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et" "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et" "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et" "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et" "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et" "{1CBE59F8168C6286}Prefabs/Magazines/Magazine_7.62x51_MA37.et"
+     }
+    }
+   }
+  }
+ }
+}

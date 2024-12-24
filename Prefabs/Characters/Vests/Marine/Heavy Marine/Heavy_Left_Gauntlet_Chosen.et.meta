@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FDABDB545445D11F}Prefabs/Characters/Vests/Marine/Heavy Marine/Heavy_Left_Gauntlet_Chosen.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

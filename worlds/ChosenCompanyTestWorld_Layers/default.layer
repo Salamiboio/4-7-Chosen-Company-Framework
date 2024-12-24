@@ -1,0 +1,111 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 2383.532 88.771 1350.619
+}
+CRF_Gamemode GameMode_Lobby1 : "{25E59F270F06BAA4}Prefabs/MP/Modes/Plain/GameMode_Lobby.et" {
+ components {
+  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
+   m_SpawnLogic SCR_SpawnLogic "{5D36888CC966608A}" {
+   }
+  }
+ }
+ coords 2384.508 90.109 1342.927
+ PlayerControllerPrefab "{A1AE127F16DD352E}Prefabs/Characters/Core/DefaultPlayerControllerMP_Factions.et"
+ m_aMissionDescriptors {
+  CRF_MissionDescriptor "{632771FB5C619E1C}" {
+   m_sTitle "Welcome"
+   m_sTextData "Welcome to Chosen Company, 5-7 Cav"\
+   "We are an Army Recon Unit set in the Halo Universe"\
+   "Our Campaign Op Times are 7PM EST every Friday"\
+   ""\
+   "if this is your first time joing us you can contact us for more information at https://discord.gg/NCgNMvt3uC"\
+   ""\
+   "If you are coming in from the public you are more than welcome to join in, just select your slot and we will get you into the action."
+  }
+  CRF_MissionDescriptor "{632E8E252F3FE761}" {
+   m_sTitle "Situation"
+  }
+  CRF_MissionDescriptor "{632E8E252551B45B}" {
+   m_sTitle "Objectives"
+  }
+  CRF_MissionDescriptor "{632E8E25204D7433}" {
+   m_sTitle "Extra Info"
+  }
+ }
+ {
+  SCR_FactionManager "632E84AAA59CF5F7" {
+   ID "632771FB44BBF896"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     FactionKey "BLUFOR"
+     m_sFactionFlag "{0C48434255C8C4F7}UI/data/CTrpFlag.edds"
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "1PLT"
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+        m_sCallsign "1-1"
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+        m_sCallsign "1-2"
+       }
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+        m_sCallsign "Overflow"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+      m_sCallsignCharacterFormat "%3"
+      m_sCallsignCharacterWithRoleFormat "%3"
+     }
+    }
+    SCR_Faction "{56DEAC40D3C2E623}" {
+     FactionKey "OPFOR"
+    }
+    SCR_Faction "{56DEAC40D132400B}" {
+     FactionKey "INDFOR"
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_base.et" {
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{E39C348314AB576C}Assets/Props/Fabric/Flags/Data/Flag_Chosen.emat"
+  }
+ }
+ coords 2384.479 88.785 1350.578
+}
+SCR_AIGroup : "{F6CEE00BE8EFEFC7}Prefabs/Groups/BLUFOR/Group_Chosen_Platoon.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 2390.515 80.754 1367.685
+ {
+  SCR_AIGroup : "{A153D99401A62F31}Prefabs/Groups/BLUFOR/Group_Chosen_Squad.et" {
+   components {
+    AIFormationComponent "{507E9DC12F541FE6}" {
+     DefaultFormation "Column"
+    }
+   }
+   coords -0.792 0.097 -4.332
+   {
+    SCR_AIGroup : "{A153D99401A62F31}Prefabs/Groups/BLUFOR/Group_Chosen_Squad.et" {
+     components {
+      AIFormationComponent "{507E9DC12F541FE6}" {
+       DefaultFormation "Column"
+      }
+     }
+     coords -3.514 -0.234 2.203
+     {
+      SCR_AIGroup : "{A153D99401A62F31}Prefabs/Groups/BLUFOR/Group_Chosen_Squad.et" {
+       coords -6.217 7.229 -8.329
+      }
+     }
+    }
+   }
+  }
+ }
+}

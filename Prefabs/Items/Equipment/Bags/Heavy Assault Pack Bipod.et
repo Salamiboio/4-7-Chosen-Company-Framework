@@ -1,0 +1,28 @@
+GenericEntity : "{AE619DBF45434A2C}Prefabs/Items/Equipment/Bags/Medium Assault Pack.et" {
+ ID "62CA5CE20A11537F"
+ components {
+  MeshObject "{62CA5CE20A115346}" {
+   Object "{A6BC3D0AA56486EF}Assets/Characters/Bags/Heavy Assault Pack.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{62CA5CE20A115357}" {
+   Attributes SCR_ItemAttributeCollection "{62CA5CE20A11535C}" {
+    ItemDisplayName UIInfo "{62CA5CE20A11535E}" {
+     Name "UNSC Heavy Pack"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{62CA5CE20A115CA5}" {
+     ItemDimensions 12 12 10
+    }
+   }
+   MaxCumulativeVolume 3000
+   MaxItemSize 20 20 20
+  }
+  StaticWeaponBagComponent "{632E7B2AF7B703C2}" {
+   m_bIsBipod 1
+  }
+  BaseLoadoutClothComponent "{62CA5CE20A115CAB}" {
+   WornModel "{A6BC3D0AA56486EF}Assets/Characters/Bags/Heavy Assault Pack.xob"
+   ItemModel "{51E57D7E438F726E}Assets/Characters/Bags/Heavy Assault Pack Item.xob"
+   DeflatedModel "{A6BC3D0AA56486EF}Assets/Characters/Bags/Heavy Assault Pack.xob"
+  }
+ }
+}

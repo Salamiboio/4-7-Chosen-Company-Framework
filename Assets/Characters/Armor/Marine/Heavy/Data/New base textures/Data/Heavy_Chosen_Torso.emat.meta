@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F471A419A713E805}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Heavy_Torso.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

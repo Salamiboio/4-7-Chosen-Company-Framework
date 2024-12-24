@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{40C1E32B814D35BF}Assets/Characters/Armor/Marine/OWS Reach/Data/Helm_Body Reach Chosen.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

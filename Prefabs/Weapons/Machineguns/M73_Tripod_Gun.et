@@ -1,0 +1,18 @@
+GenericEntity : "{3D3B640B7773CC99}Prefabs/Weapons/Machineguns/M73.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  StaticWeaponBagComponent "{632E7B2A10D29E8E}" {
+   m_rWeaponPrefab "{B07C0B23BDE4E40C}Prefabs/Weapons/Tripods/M73_Tripod.et"
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   additionalActions {
+    AssembleWeaponAction "{632E7B29C2202FEC}" {
+     ParentContextList {
+     }
+     UIInfo UIInfo "{62B2ACD29CACEB54}" {
+     }
+    }
+   }
+  }
+ }
+}

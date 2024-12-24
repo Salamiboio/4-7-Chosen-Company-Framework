@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{78835BE16020990A}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Heavy_Helmet.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Cull none
+ AllowUserAlphaBias 1
+ DisableUserAphaInShadow 1
+ BCRMap "{A30BF5126D5B69B0}Assets/Armor/Heavy/Heavy_Chosen_Helmet_BCR.edds"
+ NMOMap "{D04AE0457962CA01}Assets/Characters/Armor/Marine/Heavy/Data/New/Helmet_NMO.edds"
+}

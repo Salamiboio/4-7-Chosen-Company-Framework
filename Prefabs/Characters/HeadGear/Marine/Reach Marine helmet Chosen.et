@@ -1,0 +1,21 @@
+GameEntity : "{E6601F2045A15A18}Prefabs/Characters/HeadGear/Marine/Light Marine helmet.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{9C50608F0D2483A0}Assets/Characters/Armor/Marine/OWS Reach/Marine Helmet UA OWS.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{52C8D60185955516}" {
+     Name "Light Marine Helmet (Reach)"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{9C50608F0D2483A0}Assets/Characters/Armor/Marine/OWS Reach/Marine Helmet UA OWS.xob"
+   WornMaterialsOverride {
+    "{40C1E32B814D35BF}Assets/Characters/Armor/Marine/OWS Reach/Data/Helm_Body Reach Chosen.emat"
+   }
+  }
+ }
+}

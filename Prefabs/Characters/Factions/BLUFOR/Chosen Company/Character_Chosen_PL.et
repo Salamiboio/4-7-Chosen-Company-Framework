@@ -1,0 +1,15 @@
+SCR_ChimeraCharacter : "{FE3100AF44B1DBF6}Prefabs/Characters/Factions/BLUFOR/Chosen Company/Character_Chosen_Leader.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CRF_PlayableCharacter "{62F200EA748008B9}" {
+   m_sName "Platoon Leader"
+   m_bIsPlayable 1
+   m_bIsLeaderOrMedic 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{25A0AD26762AAC49}UI/data/LT_Rank.edds"
+   }
+  }
+ }
+}

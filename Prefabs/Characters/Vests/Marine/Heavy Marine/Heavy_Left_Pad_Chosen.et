@@ -1,0 +1,92 @@
+GenericEntity : "{93690AE7A4BAD926}Prefabs/Characters/Core/Vest_Base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  InventoryItemComponent "{632F6E02B9E4DC00}" {
+   Attributes SCR_ItemAttributeCollection "{632F6E02B9E4DC0E}" {
+    ItemDisplayName UIInfo "{632F6E02B9E4DC72}" {
+     Name "Heavy Left Shoulder Pad"
+     Description ""
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{632F6E02B9E4DC75}" {
+     Weight 2
+     SizeSetupStrategy Manual
+     ItemDimensions 15 15 15
+     ItemVolume 800
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{632F6E02B9E4DC79}" {
+      CameraOrbitAngles 0 0 0
+      CameraDistanceToItem 3.5
+      FOV 10
+      PreviewModel ""
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_2x2
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{59FA7B060EADE9A8}Assets/Characters/Armor/Marine/Heavy/Heavy armor L Pad.xob"
+  }
+  RigidBody "{5312D798AF7A9E28}" {
+   Enabled 1
+   ModelGeometry 1
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   AreaType ZEL_ExtraArea "{632F6E02B9E4DC52}" {
+   }
+   Slots {
+    LoadoutSlotInfo Canteen {
+     PivotID "spine3"
+     Offset -0.1653 -0.0798 -0.1052
+     Angles 0 237.00003 0
+    }
+    LoadoutSlotInfo Etool {
+     PivotID "spine3"
+     Offset 0.0762 -0.0242 -0.1147
+     Angles 0 168.44139 0
+    }
+   }
+   WornModel "{59FA7B060EADE9A8}Assets/Characters/Armor/Marine/Heavy/Heavy armor L Pad.xob"
+   WornMaterialsOverride {
+    "{50B55091CC605AC9}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Heavy_Chosen_Arms.emat"
+   }
+   PhysicsOnWearEnabled 1
+   AnimateCollidersOnWear 1
+   SoundInt 430
+   DepthFront 0
+   DepthBack 0
+   DepthLeft 0.016
+   DepthRight 0.016
+   OffsetShoulderLeft 0
+   OffsetShoulderRight 0
+   AreaOcludders {
+    "BeltFrontLeft" "BeltFrontRight" "ChestLeftBottomFront" "ChestRightBottomFront" "ChestLeftTopFront" "ChestRightTopFront"
+   }
+   AreaTypeWhenModelChange {
+    LoadoutArmoredVestSlotArea "{632F6E02B9E4DC40}" {
+    }
+   }
+  }
+  ActionsManagerComponent "{53153A1F9AB97FF6}" {
+   additionalActions {
+    SCR_EquipClothAction "{52F2BEF206B82FCB}" {
+     ParentContextList {
+     }
+    }
+    SCR_EquipGadgetAction "{632F6E02B9E4DC45}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{632F6E02B9E4DC47}" {
+      Name "#AR-Inventory_Equip"
+     }
+    }
+   }
+  }
+  RplComponent "{52A889F9AFAA98F2}" {
+   "Parent Node From Parent Entity" 0
+  }
+ }
+}

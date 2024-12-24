@@ -1,0 +1,22 @@
+GenericEntity : "{903C7920F00AB654}Prefabs/Weapons/Rifles/SampleWeapon_01_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  StaticWeaponBagComponent "{632E7B29D78C1ECF}" {
+   m_rWeaponPrefab "{C19E2BEB18AA628E}Prefabs/Weapons/Tripods/M73 Tripod.et"
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   additionalActions {
+    AssembleWeaponAction "{632E7B29C2202FEC}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{62B2ACD29CACEB54}" {
+      Name "Assemble Weapon"
+     }
+     Duration 5
+     "Sort Priority" 3
+    }
+   }
+  }
+ }
+}

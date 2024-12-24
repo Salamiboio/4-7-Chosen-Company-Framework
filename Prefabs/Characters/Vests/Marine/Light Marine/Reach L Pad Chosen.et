@@ -1,0 +1,25 @@
+GenericEntity : "{2D3B13CEFB70C8F7}Prefabs/Characters/Vests/Marine/Light Marine/Add Light L Pad.et" {
+ ID "50D8C49B3558F152"
+ components {
+  InventoryItemComponent "{61A51A24F7AC7ED4}" {
+   Attributes SCR_ItemAttributeCollection "{61A51A24F7AC7D38}" {
+    ItemDisplayName UIInfo "{61A51A24F7AC7D3A}" {
+     Name "Light Left Shoulder Pad (Reach)"
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{C156A973A104EA64}Assets/Characters/Armor/Marine/OWS Reach/Marine L Pad OWS.xob"
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{C156A973A104EA64}Assets/Characters/Armor/Marine/OWS Reach/Marine L Pad OWS.xob"
+   WornMaterialsOverride {
+    "{399DDF64172148E9}Assets/Characters/Armor/Marine/OWS Reach/Data/R_Pad Chosen.emat"
+   }
+   ItemModel "{C156A973A104EA64}Assets/Characters/Armor/Marine/OWS Reach/Marine L Pad OWS.xob"
+   ItemMaterialsOverride {
+    "{399DDF64172148E9}Assets/Characters/Armor/Marine/OWS Reach/Data/R_Pad Chosen.emat"
+   }
+  }
+ }
+}

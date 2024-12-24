@@ -1,0 +1,58 @@
+SCR_ChimeraCharacter : "{577C074AAF8AE737}Prefabs/Characters/Factions/BLUFOR/Chosen Company/Character_Chosen_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CRF_PlayableCharacter "{62F200EA748008B9}" {
+   m_sName "Machine Gunner"
+   m_bIsPlayable 1
+   m_bIsLeaderOrMedic 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3D3B640B7773CC99}Prefabs/Weapons/Machineguns/M73.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B9EE916BDA6A2E54}Prefabs/Characters/HeadGear/Marine/Heavy_Helmet_Chosen.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{60A5671A9CD191BD}Prefabs/Items/Equipment/Bags/Heavy Assault Pack.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo Extra {
+    }
+    LoadoutSlotInfo Extra2 {
+     Prefab ""
+    }
+    LoadoutSlotInfo Extra3 {
+     Prefab "{A03BA554CF04F1BB}Prefabs/Characters/Vests/Marine/Light Marine/Reach R Pad Chosen.et"
+    }
+    LoadoutSlotInfo Extra4 {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{632E44298127E0E1}" {
+     TargetStorage "Prefabs/Characters/Vests/Marine/Reach Marine Pouches.et"
+     PrefabsToSpawn {
+      "{970BD9E3262C5EF7}Prefabs/Weapons/Grenades/Z-4190 TPE-SS/Bubble_Base.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{B53E34CC78CF7FAB}Prefabs/Weapons/Grenades/Grenade_M9.et" "{B53E34CC78CF7FAB}Prefabs/Weapons/Grenades/Grenade_M9.et"
+     }
+    }
+    ItemsInitConfigurationItem "{632E443B1C78A0C1}" {
+     TargetStorage "Prefabs/Items/Equipment/Bags/Heavy Assault Pack.et"
+     PrefabsToSpawn {
+      "{1D23B822BDE38B2A}Prefabs/Magazines/M73 Magazine.et" "{1D23B822BDE38B2A}Prefabs/Magazines/M73 Magazine.et" "{1D23B822BDE38B2A}Prefabs/Magazines/M73 Magazine.et" "{1D23B822BDE38B2A}Prefabs/Magazines/M73 Magazine.et" "{1D23B822BDE38B2A}Prefabs/Magazines/M73 Magazine.et"
+     }
+    }
+   }
+  }
+ }
+}

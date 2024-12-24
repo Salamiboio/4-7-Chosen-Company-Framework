@@ -1,0 +1,9 @@
+GenericEntity : "{2C166D8DBBA47738}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_base.et" {
+ ID "50C6D20663830070"
+ components {
+  SCR_FlagComponent "{5E3C95A1E1EE9681}" {
+   m_sDefaultMaterial "{E39C348314AB576C}Assets/Props/Fabric/Flags/Data/Flag_Chosen.emat"
+  }
+ }
+ coords 2384.479 88.785 1350.578
+}

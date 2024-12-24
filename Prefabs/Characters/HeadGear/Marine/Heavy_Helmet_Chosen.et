@@ -1,0 +1,156 @@
+GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_base.et" {
+ ID "50D485E1435D6C72"
+ components {
+  SignalsManagerComponent "{632F6E02D3B4D8F9}" {
+  }
+  GREG_NightVisionComponent "{632F6E02D3B4D8EB}" {
+   m_colorshaderpath "{00EDD5CEA06A49A0}Assets/Shader/NVG/Color/Green/NightVisionUNSC color.emat"
+   m_CanChangeLuminosity 1
+   m_sSignalName1 "Head"
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{897C703198A4DC52}Assets/Characters/Armor/Marine/Heavy/Heavy helmet.xob"
+   LODFactors {
+   }
+  }
+  ParametricMaterialInstanceComponent "{5854DCD8F168E46E}" {
+   UserParamOne 0
+   UserParamTwo 0
+   UserParamThree 0
+   UserParamFour 0
+   ApplyPropertiesWhenMeshChanged 1
+  }
+  RigidBody "{5112706CD4157AE6}" {
+   Enabled 1
+   Layers 16400
+   LayerPreset "FireGeo"
+   Gravity 0
+   LinearDamping 0.1
+   AngularDamping 0.1
+   ResponseIndex "HugeDestructible"
+   Static 1
+   Kinematic 0
+  }
+  SAL_HUDComponent "{632F6E02D3B4D8C0}" {
+   m_sHudName "{CB1948B710C317DF}UI/layouts/HUD/Full HUD Marine.layout"
+  }
+  SCR_ArmorDamageManagerComponent "{5E208A6BCC801EAE}" {
+   "Additional hit zones" {
+    SCR_ArmorHitZone helmet {
+     ColliderNames {
+      "UTM_Helmet_low"
+     }
+    }
+   }
+  }
+  SCR_BaseHUDComponent "{632F6E02D3B4DB02}" {
+   Enabled 0
+   InfoDisplays {
+    NSW_HealthBar "{632F6E02D3B4DB08}" {
+     VisibleAtParent 1
+     m_LayoutPath "{B83A75EC73A8D945}UI/layouts/Editor/Compass/MarineCompassExtended.layout"
+    }
+    NSW_HealthBar "{632F6E02D3B4DB60}" {
+     VisibleAtParent 1
+     m_LayoutPath "{CA27792D3486AC63}UI/layouts/Editor/Compass/Marine Reticle.layout"
+     m_bShowWhenCreated 1
+     m_bIsEnabled 0
+     m_eShow 36
+    }
+    SCR_WeaponInfo "{632F6E02D3B4DB63}" {
+     VisibleAtParent 1
+     m_LayoutPath "{5DFC377A7B9B4C5A}UI/layouts/HUD/WeaponInfo/Marine WeaponInfo.layout"
+    }
+    SESOFCompass "{632F6E02D3B4DB65}" {
+     VisibleAtParent 1
+     m_LayoutPath "{5FAB5AD5C9081285}UI/layouts/HUD/Compass/Marine Compass.layout"
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5244E4431E28A759}" {
+   components {
+    SCR_EquipmentStorageComponent "{632F6E02D3B4DB6A}" {
+     Enabled 1
+     StoragePurpose 64
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot Visor {
+       Offset 0 0 -0.021
+       InheritParentSkeleton 1
+       AllowedItemTypes {
+        "GLASSES"
+       }
+       AnimatedMeshRefference "{897C703198A4DC52}Assets/Characters/Armor/Marine/Heavy/Heavy helmet.xob"
+      }
+     }
+    }
+   }
+   Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
+    ItemDisplayName UIInfo "{52C8D60185955516}" {
+     Name "Heavy Marine Helmet"
+     Description ""
+     Icon "{36885A0DC0B9DF52}UI/Textures/Icon/Spartan.edds"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52D2D3575561FE0E}" {
+      CameraOrbitAngles -10 180 0
+      CameraDistanceToItem 2
+      FOV 10
+      PreviewWornModel 1
+      PreviewModel "{9C9E95BB822B8842}Assets/Characters/Armor/Mk IV MJOLNIR helmet item.xob"
+     }
+    }
+    m_Size SLOT_2x2
+   }
+   CapacityCoefficient 0
+  }
+  SlotManagerComponent "{632F6E02D3B4DB9B}" {
+   Slots {
+    RegisteringComponentSlotInfo Radio {
+     Offset 0 0 -0.1969
+     RegisterActions 1
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo MeshCover {
+    }
+    LoadoutSlotInfo NVG {
+     Enabled 0
+    }
+   }
+   WornModel "{897C703198A4DC52}Assets/Characters/Armor/Marine/Heavy/Heavy helmet.xob"
+   WornMaterialsOverride {
+    "{31028526D6242004}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/marine_helmet_unsc_001.emat" "{5340CF03FBC21837}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Flair_marine_armor.emat" "{CEF6D240D2646305}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Flair_monocle.emat" "{78835BE16020990A}Assets/Characters/Armor/Marine/Heavy/Data/New base textures/Data/Heavy_Chosen_Helmet.emat"
+   }
+   ItemModel "{6ABA49B62C01355E}Assets/Characters/Armor/Marine/Heavy/Heavy helmet item.xob"
+   ForceLOD0 1
+   OverrideMeshesToHide {
+   }
+   DebugWornModel 0
+  }
+  ActionsManagerComponent "{5112706CD4157AC9}" {
+   ActionContexts {
+    UserActionContext "{632F6E02D3B4DBDB}" {
+     ContextName "SCR_TurnOnAction"
+     Position PointInfo "{632F6E02D3B4DBDD}" {
+      Offset 0 1.8669 0
+     }
+     Radius 2
+    }
+   }
+   additionalActions {
+    SCR_EquipClothAction "{52E6EC76F51E12DE}" {
+     m_sEquipActionString "Equip"
+     m_sSwapActionString "Swap"
+     m_sReplaceActionString "Replaces"
+    }
+    SCR_PickUpItemAction "{52E6EC76F43FCD58}" {
+     UIInfo UIInfo "{52E6EC7591413A14}" {
+      Name "PickUp"
+     }
+    }
+   }
+  }
+ }
+}
