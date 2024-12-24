@@ -171,7 +171,9 @@ FrameWidgetClass {
        Name "Text0"
        Slot ButtonWidgetSlot "{633063640A166BF2}" {
        }
-       Text "Respawn All"
+       Text "Call For Reinforcement"
+       "Font Size" 14
+       "Min Font Size" 11
        Wrap 1
       }
      }

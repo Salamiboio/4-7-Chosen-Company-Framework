@@ -67,7 +67,7 @@ HorizontalLayoutWidgetClass {
        Name "Text0"
        Slot ButtonWidgetSlot "{633071E310AC5968}" {
        }
-       Text "Respawn"
+       Text "Reinforce"
       }
      }
     }

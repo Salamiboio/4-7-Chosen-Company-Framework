@@ -19,6 +19,11 @@ SCR_ChimeraCharacter : "{577C074AAF8AE737}Prefabs/Characters/Factions/BLUFOR/Cho
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{632E442950913FF7}" {
+     PrefabsToSpawn + {
+      "{B93D384919E16817}Prefabs/Items/Equipment/Kits/Health Pack/Datapad_Medical.et"
+     }
+    }
     ItemsInitConfigurationItem "{632E8E2782C8A8C6}" {
      TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
      PrefabsToSpawn {
