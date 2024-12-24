@@ -1,0 +1,42 @@
+SCR_AIGroup : "{F6CEE00BE8EFEFC7}Prefabs/Groups/BLUFOR/Group_Chosen_Platoon.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 4899.474 28.593 11829.343
+ {
+  SCR_AIGroup : "{A153D99401A62F31}Prefabs/Groups/BLUFOR/Group_Chosen_Squad.et" {
+   ID "63301A09C8FD6A6A"
+   components {
+    AIFormationComponent "{507E9DC12F541FE6}" {
+     DefaultFormation "Column"
+    }
+   }
+   coords -3.132 0.023 -2.771
+   {
+    SCR_AIGroup : "{A153D99401A62F31}Prefabs/Groups/BLUFOR/Group_Chosen_Squad.et" {
+     ID "63301A09C8FD6A6C"
+     components {
+      AIFormationComponent "{507E9DC12F541FE6}" {
+       DefaultFormation "Column"
+      }
+     }
+     coords 6.11 -0 -0.449
+     {
+      SCR_AIGroup : "{238409DEDDC3C04C}Prefabs/Groups/BLUFOR/Group_Chosen_Overflow.et" {
+       ID "63301A09C8FD6A6D"
+       components {
+        AIFormationComponent "{507E9DC12F541FE6}" {
+         DefaultFormation "Column"
+        }
+       }
+       coords 8.15 0.031 -0.547
+      }
+     }
+    }
+   }
+  }
+ }
+}

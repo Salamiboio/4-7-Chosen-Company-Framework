@@ -1,0 +1,41 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A2995A7E8BC2}" {
+     NavmeshFile "{D8EF7131FB31AF97}worlds/GameMaster/Navmeshes/GM_Arland.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A299509CF377}" {
+     NavmeshFile "{A0AEEB1E7EF474FA}worlds/GameMaster/Navmeshes/GM_Arland_vehicles.nmn"
+    }
+   }
+  }
+ }
+ coords -229.475 1794.058 2910.628
+}
+CRF_Gamemode Chosen_Company_Gamemode1 : "{2155F342DCD6C610}Prefabs/MP/Chosen_Company_Gamemode.et" {
+ coords -230.58 1794.058 2921.92
+ {
+  SCR_FactionManager "63301A044340AC9B" {
+   ID "632771FB44BBF896"
+   Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{A5DAD0616732F910}Prefabs/Props/Skybox/Halo skybox.et" {
+ coords 322.725 1.297 2513.164
+ angleY 0
+}
