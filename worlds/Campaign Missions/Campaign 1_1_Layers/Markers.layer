@@ -1,0 +1,32 @@
+$grp PS_ManualMarker : "{BE9E1F90BFFBB48A}PrefabsEditable/GameZoneMarker.et" {
+ {
+  coords 1396.022 47.885 5847.156
+  angleY 0
+  m_sQuadName "search-area"
+  m_sDescription "Sweep Area"
+ }
+ {
+  coords 2608.653 107.1 5376.293
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "mark-exclamation"
+  m_sDescription "Potential Cache"
+ }
+ {
+  coords 2843.592 87.789 6362.02
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "mark-exclamation"
+  m_sDescription "Potential Cache"
+ }
+ {
+  coords 2244.079 18.381 7530.807
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "mark-exclamation"
+  m_sDescription "Potential Cache"
+ }
+ {
+  coords 3075.47 118.47 5230.652
+  m_MarkerColor 1 0 0 1
+  m_sQuadName "mark-exclamation"
+  m_sDescription "Potential Cache"
+ }
+}

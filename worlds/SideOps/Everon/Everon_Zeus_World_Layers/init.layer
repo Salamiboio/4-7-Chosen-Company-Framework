@@ -17,6 +17,74 @@ SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
  }
  coords 4966.078 28.594 11839.78
 }
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4865.135 28.594 11778.798
+}
 CRF_Gamemode Chosen_Company_Gamemode1 : "{2155F342DCD6C610}Prefabs/MP/Chosen_Company_Gamemode.et" {
+ components {
+  CHO_SpawnPoint "{633C69173714DEB5}" {
+  }
+ }
  coords 4939.711 28.536 11795.405
+ {
+  SCR_FactionManager "633C6916ED5C61EE" {
+   ID "632771FB44BBF896"
+   Factions {
+    SCR_Faction "{63301A05DDCE1CFF}" {
+     m_sFactionRadioEncryptionKey "BLUFOR"
+    }
+    SCR_Faction "{63301A05DC837BF7}" {
+     UIInfo SCR_FactionUIInfo "{633613C6E8820E5B}" {
+      Name "#AR-Faction_USSR"
+      Icon "{40B12B0DF911B856}UI/Textures/Editor/EditableEntities/Factions/EditableEntity_Faction_USSR.edds"
+      m_sNameUpper "#AR-Faction_USSR-UC"
+     }
+     "Identity of soldiers" FactionIdentity "{633613C6E10FF878}" {
+      VisualIdentityArray {
+       VisualIdentity "{570CE64C790A3C7D}" {
+       }
+       VisualIdentity "{570EDB835A380222}" {
+       }
+       VisualIdentity "{570EDB8350DB33B8}" {
+       }
+       VisualIdentity "{570EDB8357A47107}" {
+       }
+       VisualIdentity "{570EDB8327826007}" {
+       }
+       VisualIdentity "{570EDB83254045EE}" {
+       }
+       VisualIdentity "{570EDB832452CCD8}" {
+       }
+       VisualIdentity "{588503EEE1FF7EEB}" {
+       }
+       VisualIdentity "{588503EECF36003C}" {
+       }
+      }
+      SoundIdentityArray {
+       SoundIdentity "{570CE64860055F45}" {
+       }
+       SoundIdentity "{5AEC96AD24E40119}" {
+       }
+       SoundIdentity "{5AEC96AD20F98C72}" {
+       }
+       SoundIdentity "{5AEC96AD204C3B08}" {
+       }
+       SoundIdentity "{5AEC96ADDFFD5B0A}" {
+       }
+       SoundIdentity "{5AEC96ADDFB84005}" {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp BaseGameTriggerEntity {
+ NewSpawn {
+  coords 3472.976 1505.134 13497.477
+ }
+ OriginalSpawn {
+  coords 4899.634 28.594 11826.597
+ }
 }

@@ -32,7 +32,9 @@ GameEntity : "{8A2B2A544F3ED831}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helm
    Kinematic 0
   }
   SAL_HUDComponent "{632F6E02D3B4D8C0}" {
+   Enabled 0
    m_sHudName "{CB1948B710C317DF}UI/layouts/HUD/Full HUD Marine.layout"
+   m_bThirdPerson 0
   }
   SCR_ArmorDamageManagerComponent "{5E208A6BCC801EAE}" {
    "Additional hit zones" {

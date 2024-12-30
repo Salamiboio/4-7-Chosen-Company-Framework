@@ -4,6 +4,11 @@ GameEntity : "{E6601F2045A15A18}Prefabs/Characters/HeadGear/Marine/Light Marine 
   MeshObject "{5112706CD4157AE0}" {
    Object "{9C50608F0D2483A0}Assets/Characters/Armor/Marine/OWS Reach/Marine Helmet UA OWS.xob"
   }
+  SAL_HUDComponent "{62EAA983AE91D1A0}" {
+   Enabled 0
+   m_sHudName ""
+   m_bThirdPerson 0
+  }
   SCR_UniversalInventoryStorageComponent "{5244E4431E28A759}" {
    Attributes SCR_ItemAttributeCollection "{52C8D601873E6784}" {
     ItemDisplayName UIInfo "{52C8D60185955516}" {

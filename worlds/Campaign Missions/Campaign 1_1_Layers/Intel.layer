@@ -1,0 +1,31 @@
+$grp GenericEntity : "{7B68FEDCB026BB2F}Prefabs/Items/Misc/IntelligenceFolder_E_01/E_GME_IntelFolder_01.et" {
+ {
+  components {
+   GME_IntelComponent "{628C84EC4669F95B}" {
+    m_sTitle "What the UNSC Isn't Telling You"
+   }
+  }
+  coords 2644.509 95.428 5406.77
+ }
+ {
+  components {
+   GME_IntelComponent "{628C84EC4669F95B}" {
+    m_sTitle "Weapons Report #27"
+    m_sContent "Be advised all unit commanders, we've acquired advanced indirect weapon systems from arms dealers within the island, this should make it easier to repel the incoming UNSC incursion."
+   }
+  }
+  coords 3079.363 119.521 5249.174
+ }
+ {
+  components {
+   GME_IntelComponent "{628C84EC4669F95B}" {
+    m_sTitle "Enemy Map"
+    m_sContent "Looks to contain markings of the local area."
+   }
+   MeshObject "{5AB0B9C3C3E4A143}" {
+    Object "{E443663E5241622A}Assets/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_folded.xob"
+   }
+  }
+  coords 2771.031 83.315 6397.054
+ }
+}

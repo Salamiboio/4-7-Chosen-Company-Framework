@@ -61,6 +61,47 @@ CRF_Gamemode : "{25E59F270F06BAA4}Prefabs/MP/Modes/Plain/GameMode_Lobby.et" {
     SCR_Faction "{63301A05DDCE1CFF}" {
      FactionKey "BLUFOR"
      FactionColor 0.016 0.552 0.905 1
+     UIInfo SCR_FactionUIInfo "{633613C72BF93FA3}" {
+      Name "#AR-Faction_US"
+      Icon "{EB7F65DBC9392557}UI/Textures/Editor/EditableEntities/Factions/EditableEntity_Faction_USA.edds"
+      m_sNameUpper "#AR-Faction_US-UC"
+     }
+     "Identity of soldiers" FactionIdentity "{633613C721F9EFBB}" {
+      VisualIdentityArray {
+       VisualIdentity "{570CE64C790A3C7D}" {
+       }
+       VisualIdentity "{570CE64C784286B5}" {
+       }
+       VisualIdentity "{570CFDC06CAAD480}" {
+       }
+       VisualIdentity "{570CFDC05A2BFCE8}" {
+       }
+       VisualIdentity "{570CFDC037CCBCD3}" {
+       }
+       VisualIdentity "{570CFDC1C8B17A43}" {
+       }
+       VisualIdentity "{570EDB838B8AC563}" {
+       }
+       VisualIdentity "{588508C19AA51746}" {
+       }
+       VisualIdentity "{588508C199AD5966}" {
+       }
+      }
+      SoundIdentityArray {
+       SoundIdentity "{56E6A4E2A10529BB}" {
+       }
+       SoundIdentity "{5AEC87AFA4B23BE3}" {
+       }
+       SoundIdentity "{5AEC87AC5B4BBECE}" {
+       }
+       SoundIdentity "{5AEC87AC4DBA2966}" {
+       }
+       SoundIdentity "{5AEC87AC49BC45A0}" {
+       }
+       SoundIdentity "{5AEC87AC43D515D1}" {
+       }
+      }
+     }
      m_OutlineFactionColor 0.005 0.044 0.114 1
      m_NotificationFactionColor 0.016 0.552 0.905 1
      m_NotificationTextFactionColor 0.013 0.395 0.651 1

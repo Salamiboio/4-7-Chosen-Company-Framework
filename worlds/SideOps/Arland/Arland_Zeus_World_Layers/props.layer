@@ -2,3 +2,17 @@ GenericEntity : "{582C712541AA2DD7}Prefabs/Props/Flags/ChosenCompanyFlag.et" {
  coords 1343.254 37.969 2946.727
  angleY -147
 }
+$grp Vehicle : "{B731C37086BE7E40}Prefabs/Vehicles/Helicopters/UH-144/Falcon_GunshipMG.et" {
+ Falcon_GunshipMG1 {
+  coords 1026.444 3005.275 4893.298
+  angleY 179
+ }
+ Falcon_GunshipMG2 {
+  coords 1040.845 3005.275 4893.497
+  angleY 179
+ }
+}
+GenericEntity : "{E2E026045BCBB105}Prefabs/Props/Military/UNSC/Charon Class Frigate.et" {
+ coords 1033.523 1500 4990.165
+ angleY 0
+}

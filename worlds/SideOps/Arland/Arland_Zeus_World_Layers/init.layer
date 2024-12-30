@@ -17,7 +17,14 @@ SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
  }
  coords -229.475 1794.058 2910.628
 }
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1409.066 38 2888.064
+}
 CRF_Gamemode Chosen_Company_Gamemode1 : "{2155F342DCD6C610}Prefabs/MP/Chosen_Company_Gamemode.et" {
+ components {
+  CHO_SpawnPoint "{633C5017B20C04C1}" {
+  }
+ }
  coords -230.58 1794.058 2921.92
  {
   SCR_FactionManager "63301A044340AC9B" {
@@ -31,11 +38,24 @@ CRF_Gamemode Chosen_Company_Gamemode1 : "{2155F342DCD6C610}Prefabs/MP/Chosen_Com
       }
      }
     }
+    SCR_Faction "{63301A05DDCE1CFF}" {
+     m_sFactionRadioEncryptionKey "BLUFOR"
+    }
    }
   }
  }
 }
+$grp BaseGameTriggerEntity {
+ OriginalSpawn {
+  coords 1352.057 38 2921.354
+  TriggerShapeType Sphere
+ }
+ NewSpawn {
+  coords 1032.643 3005.134 4943.574
+  TriggerShapeType Sphere
+ }
+}
 GenericEntity : "{A5DAD0616732F910}Prefabs/Props/Skybox/Halo skybox.et" {
- coords 322.725 1.297 2513.164
+ coords 2701.035 80.07 1608.89
  angleY 0
 }

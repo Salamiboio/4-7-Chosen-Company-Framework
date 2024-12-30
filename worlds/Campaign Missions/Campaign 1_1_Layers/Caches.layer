@@ -1,0 +1,88 @@
+Vehicle M12_FAV_Chaingun_INNIE1 : "{90A8740800077BC2}Prefabs/Vehicles/Wheeled/M12 FAV/M12 FAV Chaingun INNIE.et" {
+ coords 3011.621 121.622 5517.545
+ angleY 134
+}
+$grp Vehicle : "{E977024E1ABEB1D6}Prefabs/Vehicles/Wheeled/M12 FAV/M12 Cargo INNIE.et" {
+ M12_Cargo_INNIE1 {
+  coords 3022.623 121.63 5508.036
+  angleY 130
+ }
+ M12_Cargo_INNIE3 {
+  coords 3016.796 121.622 5512.729
+  angleY 130
+ }
+}
+$grp GenericEntity : "{EA34AA1A128DDF6E}Prefabs/Props/Military/Arsenal/AmmoBoxes/AmmoBoxCache_CP.et" {
+ {
+  components {
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BAE058CADC}" {
+    Enabled 0
+   }
+   SCR_ServicePointComponent "{5C7489C20C7B5D4B}" {
+    Enabled 0
+   }
+   SCR_SlotCompositionComponent "{56F2C6D1431AD9A6}" {
+    Enabled 0
+   }
+   SCR_SoundDataComponent "{5C533B76540FC6EE}" {
+    Enabled 0
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    Enabled 0
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{56F2C6D1431ADBA8}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{56F2C6D1431ADB12}" {
+    Enabled 0
+   }
+  }
+  coords 2643.156 94.419 5407.363
+  angleY 124
+ }
+ {
+  components {
+   SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+    Enabled 0
+   }
+   SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+    Enabled 0
+   }
+   SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+    Enabled 0
+   }
+   SCR_ResupplySupportStationComponent "{5E2CE1BAE058CADC}" {
+    Enabled 0
+   }
+   SCR_ServicePointComponent "{5C7489C20C7B5D4B}" {
+    Enabled 0
+   }
+   SCR_SlotCompositionComponent "{56F2C6D1431AD9A6}" {
+    Enabled 0
+   }
+   SCR_SoundDataComponent "{5C533B76540FC6EE}" {
+    Enabled 0
+   }
+   UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+    Enabled 0
+   }
+   SCR_ArsenalInventoryStorageManagerComponent "{56F2C6D1431ADBA8}" {
+    Enabled 0
+   }
+   ActionsManagerComponent "{56F2C6D1431ADB12}" {
+    Enabled 0
+   }
+  }
+  coords 2302.738 17.509 7535.351
+  angleY 124
+ }
+}

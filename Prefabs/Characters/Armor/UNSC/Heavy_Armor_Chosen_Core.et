@@ -2,7 +2,7 @@ GenericEntity : "{BD62F0F4B7AE603A}Prefabs/Characters/Armor/UNSC/Pilot Armor.et"
  ID "50D8C49B3558F152"
  components {
   BaseRadioComponent "{632F6E02DBA40826}" {
-   "Encryption key" "UNSC"
+   "Encryption key" "BLUFOR"
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{632F6E02DBA40817}" {
