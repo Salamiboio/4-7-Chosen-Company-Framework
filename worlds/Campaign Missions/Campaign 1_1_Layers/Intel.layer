@@ -2,7 +2,25 @@ $grp GenericEntity : "{7B68FEDCB026BB2F}Prefabs/Items/Misc/IntelligenceFolder_E_
  {
   components {
    GME_IntelComponent "{628C84EC4669F95B}" {
-    m_sTitle "What the UNSC Isn't Telling You"
+    m_sTitle "A Tablet"
+    m_sContent "Loading…"\
+    ""\
+    "Login Credentials"\
+    "Username: ***********"\
+    "Password: ****************"\
+    ""\
+    "Welcome…"\
+    ""\
+    "Initializing…"\
+    ""\
+    "Data Entry: Colonel [REDACTED]"\
+    ""\
+    "December 31st, 2517"\
+    ""\
+    "This so called ‘Orion Project’… claims the lives of many good soldiers for silly experiments, leaving them either immobilized, brain dead, or even dead dead. And here we are again with yet another mention of the work ‘ORION’ on my desk again… this time some big shot scientist thinks she can bring it back, make some sort of super soldier to the likes of which humanity has never seen. However, reports of missing children/ children displaying odd behavior before somehow passing away a couple weeks later. I suspect flash clones given whom we’re dealing with."
+   }
+   MeshObject "{5AB0B9C3C3E4A143}" {
+    Object "{E14680EDD0DBE2DF}Assets/AmaReforger_ScreenPadMap.xob"
    }
   }
   coords 2644.509 95.428 5406.77
@@ -10,8 +28,30 @@ $grp GenericEntity : "{7B68FEDCB026BB2F}Prefabs/Items/Misc/IntelligenceFolder_E_
  {
   components {
    GME_IntelComponent "{628C84EC4669F95B}" {
-    m_sTitle "Weapons Report #27"
-    m_sContent "Be advised all unit commanders, we've acquired advanced indirect weapon systems from arms dealers within the island, this should make it easier to repel the incoming UNSC incursion."
+    m_sTitle "A handwritten note that looks like a sloppy attempt at a Bill of Lading"
+    m_sContent "\" We received a shipment from a \"sympathetic\" friend today "\
+    ""\
+    "(Number)x Mortar tubes "\
+    "(Number)x Ammo count "\
+    "(Number)x Replacement wheels for warthogs"\
+    "(Number)x Gas cans"\
+    "(Number)x Hand Grenades"\
+    ""\
+    "God I can't believe they made me count all that."\
+    "-Sgt. J. Muna"\
+    "URF 1st Green Hills Division \""
+   }
+   InventoryItemComponent "{5222EB4D0C73006B}" {
+    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+     CustomAttributes {
+      PreviewRenderAttributes "{5ABE850F29600D4D}" {
+       PreviewModel "{1E7E855124A9C21C}Assets/Props/Civilian/Notebook_01/Notebook_01_Open_v2.xob"
+      }
+     }
+    }
+   }
+   MeshObject "{5AB0B9C3C3E4A143}" {
+    Object "{1E7E855124A9C21C}Assets/Props/Civilian/Notebook_01/Notebook_01_Open_v2.xob"
    }
   }
   coords 3079.363 119.521 5249.174
@@ -20,12 +60,24 @@ $grp GenericEntity : "{7B68FEDCB026BB2F}Prefabs/Items/Misc/IntelligenceFolder_E_
   components {
    GME_IntelComponent "{628C84EC4669F95B}" {
     m_sTitle "Enemy Map"
-    m_sContent "Looks to contain markings of the local area."
+    m_sContent "The Map has hand written markings possibly indicating Innie Movements and potential HVT locations. On the bottom of the map written hastily is \"Damnit Jerry now don't forget where this stuff and don't lose this MAP.\" "
+   }
+   InventoryItemComponent "{5222EB4D0C73006B}" {
+    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+     CustomAttributes {
+      PreviewRenderAttributes "{5ABE850F29600D4D}" {
+       PreviewModel "{BDB7E0B5CEA16D85}Assets/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_title.xob"
+      }
+     }
+    }
    }
    MeshObject "{5AB0B9C3C3E4A143}" {
-    Object "{E443663E5241622A}Assets/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_folded.xob"
+    Object "{599B4D48FED538FC}Assets/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_unfolded_table.xob"
    }
   }
-  coords 2771.031 83.315 6397.054
+  coords 2771.113 83.34 6398.458
+  angleX -0.663
+  angleY 146.396
+  angleZ -0.297
  }
 }

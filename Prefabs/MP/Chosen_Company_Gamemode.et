@@ -34,6 +34,9 @@ CRF_Gamemode : "{25E59F270F06BAA4}Prefabs/MP/Modes/Plain/GameMode_Lobby.et" {
    ID "632771FB44BBF896"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_aFriendlyFactionsIds {
+      ""
+     }
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aSquadNames {
        SCR_CallsignInfo "{55CCB792D10AD8F4}" {
@@ -57,6 +60,11 @@ CRF_Gamemode : "{25E59F270F06BAA4}Prefabs/MP/Modes/Plain/GameMode_Lobby.et" {
     SCR_Faction "{56DEAC40D3C2E623}" {
     }
     SCR_Faction "{56DEAC40D132400B}" {
+    }
+    SCR_Faction "{5EC72DD04C8B51C4}" {
+     m_aFriendlyFactionsIds {
+      "BLUFOR"
+     }
     }
     SCR_Faction "{63301A05DDCE1CFF}" {
      FactionKey "BLUFOR"

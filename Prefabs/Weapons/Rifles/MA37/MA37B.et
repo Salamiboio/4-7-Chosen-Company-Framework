@@ -4,5 +4,11 @@ GenericEntity : "{3FB5275A6505B323}Prefabs/Weapons/Rifles/M14/Rifle_M21_base.et"
   SAL_HUDComponent "{62EAA987D598C6E4}" {
    Enabled 0
   }
+  SAL_HUDWeaponComponent "{633F3E0F3053B5A0}" {
+   m_sWeaponIcon "{45896B26037C0886}UI/ReachHUD/data/Ma37Icon.edds"
+   m_sCrossHairIcon "{8BD2B34D82300F50}UI/ReachHUD/data/RifleReticle.edds"
+   m_sAmmoCounterLayout "{2C6F54A1E339F842}UI/ReachHUD/RifleHorizontalLayout.layout"
+   m_iBulletPerRow 16
+  }
  }
 }

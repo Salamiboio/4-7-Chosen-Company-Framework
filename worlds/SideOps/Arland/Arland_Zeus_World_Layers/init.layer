@@ -31,6 +31,9 @@ CRF_Gamemode Chosen_Company_Gamemode1 : "{2155F342DCD6C610}Prefabs/MP/Chosen_Com
    ID "632771FB44BBF896"
    Factions {
     SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_aFriendlyFactionsIds {
+      "BLUFOR"
+     }
      m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
       m_aSquadNames {
        SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
@@ -51,7 +54,7 @@ $grp BaseGameTriggerEntity {
   TriggerShapeType Sphere
  }
  NewSpawn {
-  coords 1032.643 3005.134 4943.574
+  coords 1032.643 1505 4943.574
   TriggerShapeType Sphere
  }
 }

@@ -5,8 +5,9 @@ GameEntity : "{E6601F2045A15A18}Prefabs/Characters/HeadGear/Marine/Light Marine 
    Object "{9C50608F0D2483A0}Assets/Characters/Armor/Marine/OWS Reach/Marine Helmet UA OWS.xob"
   }
   SAL_HUDComponent "{62EAA983AE91D1A0}" {
-   Enabled 0
-   m_sHudName ""
+   m_sHudName "{B22DB901429FDC86}UI/ReachHUD/ReachHud.layout"
+   m_HudUpdate SAL_HUDReachUpdate "{64429CCF74E25699}" {
+   }
    m_bThirdPerson 0
   }
   SCR_UniversalInventoryStorageComponent "{5244E4431E28A759}" {
