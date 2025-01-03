@@ -1,6 +1,6 @@
 class CHO_ListboxComponent: SCR_ListBoxComponent
 {
-	CRF_Gamemode m_Gamemode;
+	CLB_Gamemode m_Gamemode;
 	int AddItemPlayer(Managed data = null, RplId entityID = RplId.Invalid(), int playerID = 0)
 	{	
 		CHO_ListBoxElementComponent comp;
@@ -17,7 +17,7 @@ class CHO_ListboxComponent: SCR_ListBoxComponent
 		Widget newWidget = GetGame().GetWorkspace().CreateWidgets("{4B1BA5F8E3442E94}UI/layouts/Listbox/PlayerListboxElement.layout", m_wList);
 		
 		CHO_ListBoxElementComponent comp = CHO_ListBoxElementComponent.Cast(newWidget.FindHandler(CHO_ListBoxElementComponent));
-		m_Gamemode = CRF_Gamemode.GetInstance();
+		m_Gamemode = CLB_Gamemode.GetInstance();
 		comp.m_iSlotPlayerID = playerID;
 		Print(comp.m_iSlotPlayerID);
 		

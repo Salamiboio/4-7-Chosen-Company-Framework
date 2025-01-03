@@ -20,29 +20,77 @@ SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 1409.066 38 2888.064
 }
-CRF_Gamemode Chosen_Company_Gamemode1 : "{2155F342DCD6C610}Prefabs/MP/Chosen_Company_Gamemode.et" {
+CLB_Gamemode GameMode_Lobby1 : "{25E59F270F06BAA4}Prefabs/MP/Modes/Plain/GameMode_Lobby.et" {
  components {
-  CHO_SpawnPoint "{633C5017B20C04C1}" {
+  CHO_SpawnPoint "{64476129508DDA3A}" {
   }
  }
- coords -230.58 1794.058 2921.92
+ coords 3422.833 0 4511.116
  {
-  SCR_FactionManager "63301A044340AC9B" {
-   ID "632771FB44BBF896"
+  SCR_FactionManager FactionMangerLobby1 : "{C12782D0A2555AF8}Prefabs/MP/Modes/Plain/FactionMangerLobby.et" {
+   coords 0 0 0
    Factions {
-    SCR_Faction "{56DEAC40D2DBC8B1}" {
-     m_aFriendlyFactionsIds {
-      "BLUFOR"
+    SCR_Faction "{644447CC74363DD3}" {
+     UIInfo SCR_FactionUIInfo "{644447CC8A7AD900}" {
+      Name "Chosen Company"
      }
-     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+     m_sFactionFlag "{0C48434255C8C4F7}UI/data/CTrpFlag.edds"
+     m_CallsignInfo SCR_FactionCallsignInfo "{6447612904178D87}" {
+      m_bIsAssignedRandomly 0
+      m_aCompanyNames {
+       SCR_CallsignInfo "{55CCB792CD021D5C}" {
+       }
+       SCR_CallsignInfo "{55CCB792CCD598D3}" {
+       }
+       SCR_CallsignInfo "{55CCB792CC9C7AD6}" {
+       }
+       SCR_CallsignInfo "{55CCB792CCB4D441}" {
+       }
+       SCR_CallsignInfo "{55CCB792CC5F08F3}" {
+       }
+       SCR_CallsignInfo "{55CCB792CC49B7DB}" {
+       }
+       SCR_CallsignInfo "{55CCB792CC711A37}" {
+       }
+       SCR_CallsignInfo "{55CCB792CC33211C}" {
+       }
+      }
+      m_aPlatoonNames {
+       SCR_CallsignInfo "{55CCB792CE6E998D}" {
+       }
+       SCR_CallsignInfo "{55CCB792CE18FB44}" {
+       }
+       SCR_CallsignInfo "{55CCB792CE02ECFA}" {
+       }
+       SCR_CallsignInfo "{55CCB792CE2A44BD}" {
+       }
+      }
       m_aSquadNames {
-       SCR_CallsignInfo "{55CCB792D0C8B3CE}" {
+       SCR_CallsignInfo "{64476129036FBC6B}" {
+        m_sCallsign "PL"
+       }
+       SCR_CallsignInfo "{644761291C441067}" {
+        m_sCallsign "1-1"
+       }
+       SCR_CallsignInfo "{644761291C90864C}" {
+        m_sCallsign "1-2"
+       }
+       SCR_CallsignInfo "{6447612915370799}" {
+        m_sCallsign "Overflow"
+       }
+      }
+      m_sCallsignGroupFormat "%3"
+      m_sCallsignCharacterFormat "%3"
+      m_sCallsignCharacterWithRoleFormat "%3"
+      m_aCharacterRoleCallsigns {
+       SCR_LeaderRoleCallsign "{55CA746925A7EB29}" {
+       }
+       SCR_RadioOperatorRoleCallsign "{55CA79ECD4CC1F73}" {
+       }
+       SCR_PlayerLeaderRoleCallsign "{5D9E9ECA7C7EBEA2}" {
        }
       }
      }
-    }
-    SCR_Faction "{63301A05DDCE1CFF}" {
-     m_sFactionRadioEncryptionKey "BLUFOR"
     }
    }
   }

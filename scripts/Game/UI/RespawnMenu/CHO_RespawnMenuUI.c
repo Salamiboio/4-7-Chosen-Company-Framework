@@ -5,7 +5,7 @@ modded enum ChimeraMenuPreset
 
 class CHO_RespawnMenuUI: ChimeraMenuBase
 {
-	protected CRF_Gamemode m_Gamemode;
+	protected CLB_Gamemode m_Gamemode;
 	protected Widget m_wRoot;
 	protected CHO_ListboxComponent m_wPlayerList;
 	protected TextWidget m_wAliveText;
@@ -22,7 +22,7 @@ class CHO_RespawnMenuUI: ChimeraMenuBase
 		GetGame().GetInputManager().AddActionListener("MenuBack", EActionTrigger.DOWN, Action_Exit);
 		
 		m_wRoot = GetRootWidget();
-		m_Gamemode = CRF_Gamemode.Cast(GetGame().GetGameMode());
+		m_Gamemode = CLB_Gamemode.Cast(GetGame().GetGameMode());
 		
 		m_wPlayerList = CHO_ListboxComponent.Cast(m_wRoot.FindAnyWidget("PlayersList").FindHandler(CHO_ListboxComponent));
 		m_wAliveText = TextWidget.Cast(m_wRoot.FindAnyWidget("AliveText"));

@@ -12,7 +12,7 @@ class CHO_SpawnPoint: SCR_BaseGameModeComponent
 	{
 		super.OnControllableSpawned(entity);
 		IEntity originalSpawn = GetGame().GetWorld().FindEntityByName("OriginalSpawn");
-		if(CRF_PlayableCharacter.Cast(entity.FindComponent(CRF_PlayableCharacter)).IsPlayable() && vector.Distance(entity.GetOrigin(), originalSpawn.GetOrigin()) < m_iSpawnDistance)
+		if(CLB_PlayableCharacter.Cast(entity.FindComponent(CLB_PlayableCharacter)).IsPlayable() && vector.Distance(entity.GetOrigin(), originalSpawn.GetOrigin()) < m_iSpawnDistance)
 			GetGame().GetCallqueue().CallLater(MoveEntity, 500, false, entity);
 	}
 	

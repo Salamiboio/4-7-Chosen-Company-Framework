@@ -1,7 +1,7 @@
 SCR_ChimeraCharacter : "{577C074AAF8AE737}Prefabs/Characters/Factions/BLUFOR/Chosen Company/Character_Chosen_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
-  CRF_PlayableCharacter "{62F200EA748008B9}" {
+  CLB_PlayableCharacter "{62F200EA748008B9}" {
    m_sName "Anti Tank"
    m_bIsPlayable 1
    m_bIsLeaderOrMedic 1

@@ -6,9 +6,10 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
     "{04548C6D4A936054}Sounds/RadioProtocol/RadioProtocol_Report_2_US.acp"
    }
   }
-  CRF_PlayableCharacter "{62F200EA748008B9}" {
+  CLB_PlayableCharacter "{62F200EA748008B9}" {
    m_sName "Rifleman(Flex)"
    m_bIsPlayable 1
+   m_bIsLeaderOrMedic 1
   }
   FactionAffiliationComponent "{632E44222356F704}" {
    "faction affiliation" "US"
