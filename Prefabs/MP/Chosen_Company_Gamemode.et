@@ -6,6 +6,9 @@ CLB_Gamemode : "{25E59F270F06BAA4}Prefabs/MP/Modes/Plain/GameMode_Lobby.et" {
    ID "6447612957671BD0"
    coords 0 0 0
    Factions {
+    SCR_Faction "{56DEAC40D2DBC8B1}" {
+     m_sFactionRadioEncryptionKey "BLUFOR"
+    }
     SCR_Faction "{644447CC74363DD3}" {
      UIInfo SCR_FactionUIInfo "{644447CC8A7AD900}" {
       Name "Chosen Company"
